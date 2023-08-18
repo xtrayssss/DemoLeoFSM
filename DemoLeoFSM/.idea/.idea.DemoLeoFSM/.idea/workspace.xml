@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9e98cd1f-373f-4f2f-9a88-a3efbd44ec70" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/SwordViewConfigEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AB74FE8C-3DE7-4FEE-AFAC-966C034DF8AA/e3/703517ce/Color.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/Inits/InitLevelSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Providers/Buffers/HitBufferMonoProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/Detection/DetectionCircleSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Infrastructure/Services/Data/IStaticDataService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HeroPresenter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/CirclePointRendererEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AB74FE8C-3DE7-4FEE-AFAC-966C034DF8AA/27/b2eb220c/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UnityComponents/Installers/BootstrapInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0CBF2453-FFE3-48B8-BFF5-9F7F22A27D4B/95/6224f07c/CustomPropertyDrawer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AB74FE8C-3DE7-4FEE-AFAC-966C034DF8AA/40/6dc473ed/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Packages/Tri-Inspector-main/Editor/Elements/TriBoxGroupElement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.6.3/InputSystem/InputSystem.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/AssetPaths.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Hit/HitsCount.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Analyze/AnalyzeHitsSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Infrastructure/Services/Coroutine/CoroutineRunner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Infrastructure/Services/Factories/Requests/Velocity/VelocityRequestsFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Providers/Tags/DamageAnalyzeMarkerMonoProvider.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Infrastructure/Services/Factories/Weapons/SwordFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Packages/UniTask-master/src/UniTask/Assets/Editor/EditorRunnerChecker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Packages/UniTask-master/src/UniTask.NetCoreTests/Linq/Paging.cs" />
+        <option value="$PROJECT_DIR$/Assets/UniTask-master/src/UniTask.NetCore/NetCore/AsyncEnumerableExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/UniTask-master/src/UniTask/Assets/Scenes/ExceptionExamples.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UnityComponents/DetectorIntersection.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UnityComponents/Configs/Enemies/EnemyTreeViewConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UnityComponents/Presenters/EnemyTreePresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UnityComponents/Startup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UnityComponents/RendererHit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Infrastructure/Services/Drawers/CancellationTokenService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UnityComponents/Installers/BootstrapInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Packages/ECS/ecslite-master/src/systems.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Destroy/DestroyGameObjectSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Detection/CreateDetectionAnalyzeRequestSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Detection/DetectionCircleSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Detection/DetectionNonAllocCircleSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Flip/FlipSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Damage/MakeDamageSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Destroy/DestroyEntitySystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Input/HeroInputSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/StateMachine/ChangeCurrentStateSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/StateMachine/CheckConditionGroupTransitionsSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/StateMachine/CheckConditionTransitionsSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/StateMachine/CleanupTransitionsActivitySystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/StateMachine/UpdateCurrentStateSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/StateMachine/SetupTransitionsActivitySystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Updates/UpdateJumpVelocitySystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Updates/UpdateMovementVelocitySystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Analyze/AnalyzeDetectionDamageRequests.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Analyze/GroundCollisionAnalyzeSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Jump/JumpSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Movements/DirectionCalculationSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Packages/ECS/ecslite-unityeditor-master/Runtime/EcsWorldDebugSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UnityComponents/ColorSpriteInHurt.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Movements/MovementSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Infrastructure/Services/Drawers/IColorSprite.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ControllableTimer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Infrastructure/Services/CancellationToken/CancellationTokenService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UnityComponents/Presenters/IHitRenderer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Infrastructure/Services/CancellationToken/ICancellationTokenService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UnityComponents/Presenters/EnemyTreeView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Infrastructure/Services/Drawers/ColorSprite.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Movements/AsyncTester.cs" />
+        <option value="$PROJECT_DIR$/Assets/Packages/Tri-Inspector-main/Editor/Elements/TriBoxGroupElement.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2TZ8d9NeTrJFNRpx4H0pc2G5vzA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../MileniumNew" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="RiderCSharpLiveTemplatesSettingsId" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Build\DemoLeoFSM.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\games\Unity\My Game\DemoLeoFSM\Build" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e98cd1f-373f-4f2f-9a88-a3efbd44ec70" name="Default Changelist" comment="" />
+      <created>1691239337525</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691239337525</updated>
+      <workItem from="1691239337525" duration="13796000" />
+      <workItem from="1691677630063" duration="9480000" />
+      <workItem from="1691836224356" duration="11706000" />
+      <workItem from="1691934768593" duration="14989000" />
+      <workItem from="1692009284019" duration="8940000" />
+      <workItem from="1692021197168" duration="4532000" />
+      <workItem from="1692098012400" duration="7772000" />
+      <workItem from="1692109576705" duration="10286000" />
+      <workItem from="1692180669253" duration="7099000" />
+      <workItem from="1692195653418" duration="10076000" />
+      <workItem from="1692273048845" duration="12536000" />
+      <workItem from="1692352376043" duration="1051000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="445" y="153" width="646" height="523" key="#Context_Actions" timestamp="1692216312618">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="445" y="153" width="646" height="523" key="#Context_Actions/0.0.1536.834@0.0.1536.834" timestamp="1692216312618" />
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1692102722876">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1692102722876" />
+    <state x="361" y="149" key="Rider.ProjectTemplateDialog.Size" timestamp="1692273111535">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="149" key="Rider.ProjectTemplateDialog.Size/0.0.1536.834@0.0.1536.834" timestamp="1692273111535" />
+    <state x="601" y="118" key="RiderGenerateDialog" timestamp="1692296459716">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="601" y="118" key="RiderGenerateDialog/0.0.1536.834@0.0.1536.834" timestamp="1692296459716" />
+    <state x="277" y="62" key="SettingsEditor" timestamp="1692217512811">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="277" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1692217512811" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1692301030150">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.834@0.0.1536.834" timestamp="1692301030150" />
+    <state x="425" y="189" width="672" height="677" key="run.anything.popup" timestamp="1692280054223">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" width="672" height="677" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1692280054223" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1692300250829">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1692300250829" />
+  </component>
+</project>

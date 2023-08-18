@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea8b5d22af19a4a4c90d8983316e737d, type: 3}
+  m_Name: BronzeSwordView
+  m_EditorClassIdentifier: 
+  emptyAnimation:
+    animationClip: {fileID: 7400000, guid: c6a93d90d4cc8564288ba0db436e8f0f, type: 2}
+    nameAnimation: Empty_Entity
+    hashAnimation: -845727255
+    durationAnimation: 0.016666668
+  attackAnimation:
+    animationClip: {fileID: 7400000, guid: 29bc2af0c4cbaac49ae540882ca64668, type: 2}
+    nameAnimation: Hit_BronzeSword
+    hashAnimation: 1938559222
+    durationAnimation: 0.45454547

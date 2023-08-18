@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb23ca11bfdd2c441b980e13a34e122c, type: 3}
+  m_Name: HeroData
+  m_EditorClassIdentifier: 
+  heroPrefab: {fileID: 7045320972166965152, guid: 783ec235772789443bb8adc535b3175b, type: 3}
+  movementSpeed: 80
+  health: 50
+  jumpVelocity: 400
+  jumpGravity: -400
+  heroViewConfig: {fileID: 11400000, guid: 2ca4b203895085e429bbd57a525f6f61, type: 2}
+  moveToIdleCoyoteTime: 0.08
+  camera: {fileID: 5610160927303618966, guid: 831f40fece47da44aa8cb2f7329f6405, type: 3}
+  groundDetectionConfig: {fileID: 11400000, guid: 093a52cee0dfe3641a227f8f57623ac5, type: 2}

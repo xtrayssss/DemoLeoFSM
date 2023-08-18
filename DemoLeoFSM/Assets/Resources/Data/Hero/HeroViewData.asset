@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45d6db79f5e896a46bd1869890c66d88, type: 3}
+  m_Name: HeroViewData
+  m_EditorClassIdentifier: 
+  dustEffect: {fileID: 0}
+  idleAnimation:
+    animationClip: {fileID: 7400000, guid: f1bd83e3c2c0ee841ba03b42e60be4b3, type: 2}
+    nameAnimation: Idle_Hero
+    hashAnimation: -1102188171
+    durationAnimation: 0.6666666
+  moveAnimation:
+    animationClip: {fileID: 7400000, guid: e23ab4a27b9f3e74491b20e4b095a2ed, type: 2}
+    nameAnimation: Move_Hero
+    hashAnimation: 2103803823
+    durationAnimation: 0.4
+  jumpPreparationAnimation:
+    animationClip: {fileID: 7400000, guid: 2c496aa8f5ed6584ca387dba0b4f0aad, type: 2}
+    nameAnimation: PreparationJump_Hero
+    hashAnimation: 2117414728
+    durationAnimation: 0.375
+  jumpAnimation:
+    animationClip: {fileID: 7400000, guid: b61ad091227a42e42a3555e97bce3625, type: 2}
+    nameAnimation: Jump_Hero
+    hashAnimation: -1027775335
+    durationAnimation: 0.33333334
+  landingAnimation:
+    animationClip: {fileID: 7400000, guid: b77d7105174b21344b1a9760206a63ac, type: 2}
+    nameAnimation: Landing_Hero
+    hashAnimation: 2053137657
+    durationAnimation: 0.25
+  fallingAnimation:
+    animationClip: {fileID: 7400000, guid: d329b789e36be7f4a8a82e892939a066, type: 2}
+    nameAnimation: Fall_Hero
+    hashAnimation: 236675336
+    durationAnimation: 0.5
