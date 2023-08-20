@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.affencode.leoecslite-zoo": {
+      "version": "https://github.com/aleverdes/leoecslite-zoo.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "d7a1012e7bf769332cee4e3cb8f7f59af742ee24"
+    },
     "com.dbrizov.naughtyattributes": {
       "version": "https://github.com/dbrizov/NaughtyAttributes.git#upm",
       "depth": 0,
