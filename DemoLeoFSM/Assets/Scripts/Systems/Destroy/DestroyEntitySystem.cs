@@ -1,6 +1,5 @@
-﻿using System.Threading.Tasks;
-using Components;
-using Leopotam.EcsLite.Packages.ECS.src;
+﻿using Components;
+using Leopotam.EcsLite;
 
 namespace Systems.Destroy
 {

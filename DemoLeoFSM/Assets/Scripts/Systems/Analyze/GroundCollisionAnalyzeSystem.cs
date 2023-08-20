@@ -1,9 +1,8 @@
-﻿using System.Threading.Tasks;
-using Components;
+﻿using Components;
 using Components.Grounds;
 using Components.Owners;
 using Components.Requests.Self;
-using Leopotam.EcsLite.Packages.ECS.src;
+using Leopotam.EcsLite;
 
 namespace Systems.Analyze
 {

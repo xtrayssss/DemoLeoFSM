@@ -1,10 +1,9 @@
-﻿using System.Threading.Tasks;
-using Components.Attack;
+﻿using Components.Attack;
 using Components.Buffers;
 using Components.EngineComponents;
 using Components.Hit;
 using Components.Performs;
-using Leopotam.EcsLite.Packages.ECS.src;
+using Leopotam.EcsLite;
 using UnityEngine;
 using Range = Components.Attack.Range;
 

@@ -1,5 +1,5 @@
 ﻿using Components.Requests.Other;
-using Leopotam.EcsLite.Packages.ECS.src;
+using Leopotam.EcsLite;
 
 namespace Infrastructure.Services.Factories.Requests.Damage
 {

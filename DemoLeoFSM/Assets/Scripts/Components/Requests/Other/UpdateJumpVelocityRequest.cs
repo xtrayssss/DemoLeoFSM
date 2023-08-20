@@ -1,5 +1,4 @@
 ﻿using Leopotam.EcsLite;
-using Leopotam.EcsLite.Packages.ECS.src;
 
 namespace Components.Requests.Other
 {

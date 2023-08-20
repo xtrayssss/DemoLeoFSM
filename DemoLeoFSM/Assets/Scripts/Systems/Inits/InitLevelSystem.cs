@@ -1,7 +1,7 @@
 ﻿using Infrastructure.Services.Data;
 using Infrastructure.Services.Factories.Enemies;
 using Infrastructure.Services.Factories.Hero;
-using Leopotam.EcsLite.Packages.ECS.src;
+using Leopotam.EcsLite;
 using UnityComponents.Configs.Enemies;
 using UnityComponents.Configs.Levels;
 using UnityComponents.ObjectContainers;
@@ -39,9 +39,9 @@ namespace Systems.Inits
 
         private void CreateEnemies(LevelConfig levelData, IEcsSystems systems, Transform hero)
         {
-            foreach (EnemySpawnerData enemySpawnerData in levelData.enemiesSpawnersData)
-                _enemyFactory.CreateEnemy(systems, enemySpawnerData.EnemyTypeId, enemySpawnerData.Position,
-                    _sceneObjectContainer.SubObjectContainersMap[ObjectContainerTypeId.Enemy], hero);
+            // foreach (EnemySpawnerData enemySpawnerData in levelData.enemiesSpawnersData)
+            //     _enemyFactory.CreateEnemy(systems, enemySpawnerData.EnemyTypeId, enemySpawnerData.Position,
+            //         _sceneObjectContainer.SubObjectContainersMap[ObjectContainerTypeId.Enemy], hero);
         }
 
         private string GetSceneKey() =>

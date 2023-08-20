@@ -1,10 +1,7 @@
-﻿using System;
-using System.Threading.Tasks;
-using Components.EngineComponents;
+﻿using Components.EngineComponents;
 using Components.Movement;
 using Components.Performs;
 using Leopotam.EcsLite;
-using Leopotam.EcsLite.Packages.ECS.src;
 using UnityEngine;
 
 namespace Systems.Movements

@@ -1,4 +1,4 @@
-﻿using Leopotam.EcsLite.Packages.ECS.src;
+﻿using Leopotam.EcsLite;
 using UnityEngine;
 
 namespace UnityComponents.Views

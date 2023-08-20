@@ -1,9 +1,8 @@
-﻿using System.Threading.Tasks;
-using Common;
+﻿using Common;
 using Components.Health;
 using Components.Requests.Other;
 using Components.Requests.Self;
-using Leopotam.EcsLite.Packages.ECS.src;
+using Leopotam.EcsLite;
 
 namespace Systems.Damage
 {

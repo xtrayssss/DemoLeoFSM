@@ -15,9 +15,8 @@ using Infrastructure.Services.Factories.Enemies;
 using Infrastructure.Services.Factories.Hero;
 using Infrastructure.Services.Factories.Requests.Damage;
 using Infrastructure.Services.Input;
-using Leopotam.EcsLite.Packages.ECS.src;
+using Leopotam.EcsLite;
 #if UNITY_EDITOR
-using Leopotam.EcsLite.UnityEditor.Packages.ECS.Runtime;
 #endif
 using UnityComponents.ObjectContainers;
 using UnityEngine;
@@ -67,11 +66,11 @@ namespace UnityComponents
             AddSystems();
 
 #if UNITY_EDITOR
-            _updateSystems
-                .Add(new EcsWorldDebugSystem(WorldsNames.EventsWorldName))
-                .Add(new EcsWorldDebugSystem(WorldsNames.StatesWorldName))
-                .Add(new EcsWorldDebugSystem())
-                .Add(new EcsSystemsDebugSystem());
+            // _updateSystems
+            //     .Add(new EcsWorldDebugSystem(WorldsNames.EventsWorldName))
+            //     .Add(new EcsWorldDebugSystem(WorldsNames.StatesWorldName))
+            //     .Add(new EcsWorldDebugSystem())
+            //     .Add(new EcsSystemsDebugSystem());
 #endif
 
             _initSystems.Init();

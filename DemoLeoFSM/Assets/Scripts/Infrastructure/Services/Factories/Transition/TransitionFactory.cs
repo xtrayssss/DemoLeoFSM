@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Components.Owners;
 using Components.Transition;
 using FSM;
-using Leopotam.EcsLite.Packages.ECS.src;
+using Leopotam.EcsLite;
 
 namespace Infrastructure.Services.Factories.Transition
 {

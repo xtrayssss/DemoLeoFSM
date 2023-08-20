@@ -1,5 +1,5 @@
-﻿using Components.CoolDowns;
-using Packages.ECS.src;
+﻿using AB_Utility.FromSceneToEntityConverter;
+using Components.CoolDowns;
 
 namespace Providers.CoolDowns
 {

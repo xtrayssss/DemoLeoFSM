@@ -1,6 +1,5 @@
-﻿using System.Collections.Generic;
-using FSM;
-using Leopotam.EcsLite.Packages.ECS.src;
+﻿using FSM;
+using Leopotam.EcsLite;
 
 namespace Infrastructure.Services.Factories.Transition
 {

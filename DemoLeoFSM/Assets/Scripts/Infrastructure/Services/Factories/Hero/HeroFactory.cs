@@ -1,15 +1,13 @@
-﻿using Common;
-using Components.Flip;
+﻿using AB_Utility.FromSceneToEntityConverter;
+using Common;
 using Components.Health;
 using Components.Jump;
 using Components.Movement;
 using Components.Weapon;
 using Infrastructure.Services.Data;
 using Infrastructure.Services.Factories.Detections;
-using Infrastructure.Services.Factories.Requests.Velocity;
 using Infrastructure.Services.Factories.Weapons;
-using Leopotam.EcsLite.Packages.ECS.src;
-using Packages.ECS.src;
+using Leopotam.EcsLite;
 using UnityComponents.Configs.Hero;
 using UnityComponents.Views;
 using UnityEngine;
@@ -35,32 +33,34 @@ namespace Infrastructure.Services.Factories.Hero
 
         public GameObject CreateHero(IEcsSystems system)
         {
-            EcsWorld defaultWorld = system.GetWorld();
-            EcsWorld eventsWorld = system.GetWorld(WorldsNames.EventsWorldName);
+            // EcsWorld defaultWorld = system.GetWorld();
+            // EcsWorld eventsWorld = system.GetWorld(WorldsNames.EventsWorldName);
+            //
+            // HeroConfig heroConfig = _staticDataService.GetHeroData();
+            //
+            // int entity = EcsConverter.CreateEntity(_heroEntityView.GetComponentInChildren<ComponentsContainer>(),
+            //     _heroEntityView.transform,
+            //     system.GetWorld());
+            //
+            // _heroEntityView.transform.position = new Vector3(1,1,1);
+            //
+            // _heroEntityView.Init(entity, defaultWorld);
+            //
+            // SetCameraFollow(heroConfig, _heroEntityView.transform);
+            //
+            // defaultWorld.GetPool<MovementSpeed>().Get(entity).value = heroConfig.MovementSpeed;
+            // defaultWorld.GetPool<JumpGravity>().Get(entity).value = heroConfig.JumpGravity;
+            // defaultWorld.GetPool<JumpVelocity>().Get(entity).value = heroConfig.JumpVelocity;
+            // defaultWorld.GetPool<JumpMaxVelocity>().Get(entity).value = heroConfig.JumpVelocity;
+            // defaultWorld.GetPool<Health>().Get(entity).value = heroConfig.Health;
+            //
+            // //CreateGroundCheckPoint(defaultWorld, entity, heroConfig);
+            //
+            // CreateSword(defaultWorld, entity, eventsWorld);
+            //
+            // return _heroEntityView.gameObject;
 
-            HeroConfig heroConfig = _staticDataService.GetHeroData();
-
-            int entity = EcsConverter.CreateEntity(_heroEntityView.GetComponentInChildren<ComponentsContainer>(),
-                _heroEntityView.transform,
-                system.GetWorld());
-            
-            _heroEntityView.transform.position = new Vector3(1,1,1);
-
-            _heroEntityView.Init(entity, defaultWorld);
-
-            SetCameraFollow(heroConfig, _heroEntityView.transform);
-
-            defaultWorld.GetPool<MovementSpeed>().Get(entity).value = heroConfig.MovementSpeed;
-            defaultWorld.GetPool<JumpGravity>().Get(entity).value = heroConfig.JumpGravity;
-            defaultWorld.GetPool<JumpVelocity>().Get(entity).value = heroConfig.JumpVelocity;
-            defaultWorld.GetPool<JumpMaxVelocity>().Get(entity).value = heroConfig.JumpVelocity;
-            defaultWorld.GetPool<Health>().Get(entity).value = heroConfig.Health;
-
-            //CreateGroundCheckPoint(defaultWorld, entity, heroConfig);
-            
-            CreateSword(defaultWorld, entity, eventsWorld);
-
-            return _heroEntityView.gameObject;
+            return null;
         }
 
         private void CreateGroundCheckPoint(EcsWorld defaultWorld, int entity, HeroConfig heroConfig) =>

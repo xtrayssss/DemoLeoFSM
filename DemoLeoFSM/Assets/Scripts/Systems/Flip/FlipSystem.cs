@@ -1,7 +1,5 @@
-﻿using System.Threading.Tasks;
-using Components.Movement;
+﻿using Components.Movement;
 using Leopotam.EcsLite;
-using Leopotam.EcsLite.Packages.ECS.src;
 using UnityEngine;
 
 namespace Systems.Flip

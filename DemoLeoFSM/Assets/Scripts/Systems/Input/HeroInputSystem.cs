@@ -1,10 +1,7 @@
-﻿using System.Threading.Tasks;
-using Components;
+﻿using Components;
 using Components.Movement;
 using Infrastructure.Services.Input;
 using Leopotam.EcsLite;
-using Leopotam.EcsLite.Packages.ECS.src;
-using UnityEngine;
 
 namespace Systems.Input
 {

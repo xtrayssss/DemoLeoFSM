@@ -1,6 +1,5 @@
-﻿using Components.Weapon;
-using Infrastructure.Services.Factories.Hero;
-using Packages.ECS.src;
+﻿using AB_Utility.FromSceneToEntityConverter;
+using Components.Weapon;
 
 namespace Providers.Weapon
 {

@@ -1,8 +1,6 @@
-﻿using System.Threading.Tasks;
-using Components.EngineComponents;
+﻿using Components.EngineComponents;
 using Components.Jump;
 using Leopotam.EcsLite;
-using Leopotam.EcsLite.Packages.ECS.src;
 using UnityEngine;
 
 namespace Systems.Jump

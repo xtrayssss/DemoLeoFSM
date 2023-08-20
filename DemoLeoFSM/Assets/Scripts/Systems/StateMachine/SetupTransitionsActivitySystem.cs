@@ -1,8 +1,7 @@
-﻿using System.Threading.Tasks;
-using Common;
+﻿using Common;
 using Components;
 using Components.Requests.Self;
-using Leopotam.EcsLite.Packages.ECS.src;
+using Leopotam.EcsLite;
 
 namespace Systems.StateMachine
 {

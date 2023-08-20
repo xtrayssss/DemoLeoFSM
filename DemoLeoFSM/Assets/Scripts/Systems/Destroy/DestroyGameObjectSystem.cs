@@ -1,8 +1,6 @@
-﻿using System.Threading.Tasks;
-using Components.EngineComponents;
+﻿using Components.EngineComponents;
 using Components.Requests.Self;
-using Leopotam.EcsLite.Packages.ECS.src;
-using UnityComponents;
+using Leopotam.EcsLite;
 using UnityEngine;
 
 namespace Systems.Destroy

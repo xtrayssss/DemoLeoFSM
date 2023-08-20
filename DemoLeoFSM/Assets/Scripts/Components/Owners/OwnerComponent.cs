@@ -1,5 +1,5 @@
 ﻿using System;
-using Leopotam.EcsLite.Packages.ECS.src;
+using Leopotam.EcsLite;
 
 namespace Components.Owners
 {

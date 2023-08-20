@@ -1,5 +1,4 @@
 ﻿using System;
-using TNRD.Packages.Runtime;
 using UnityComponents.Presenters;
 
 namespace UnityComponents
@@ -7,6 +6,6 @@ namespace UnityComponents
     [Serializable]
     public struct RendererHit
     {
-        public SerializableInterface<IHitRenderer> value;
+        //public SerializableInterface<IHitRenderer> value;
     }
 }

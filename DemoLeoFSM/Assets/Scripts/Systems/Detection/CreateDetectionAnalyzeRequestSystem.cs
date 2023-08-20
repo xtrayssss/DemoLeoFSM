@@ -1,8 +1,7 @@
-﻿using System.Threading.Tasks;
-using Components.Hit;
+﻿using Components.Hit;
 using Components.Performs;
 using Components.Requests.Self;
-using Leopotam.EcsLite.Packages.ECS.src;
+using Leopotam.EcsLite;
 using UnityEngine;
 
 namespace Systems.Detection

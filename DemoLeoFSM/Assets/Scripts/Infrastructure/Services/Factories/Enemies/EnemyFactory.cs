@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Leopotam.EcsLite.Packages.ECS.src;
+using Leopotam.EcsLite;
 using UnityComponents.Configs.Enemies;
 using UnityEngine;
 

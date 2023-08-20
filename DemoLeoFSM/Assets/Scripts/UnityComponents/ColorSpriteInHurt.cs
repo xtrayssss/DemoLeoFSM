@@ -1,7 +1,5 @@
-﻿using System.Threading.Tasks;
-using Components.Requests.Self;
-using Leopotam.EcsLite.Packages.ECS.src;
-using UnityEngine;
+﻿using Components.Requests.Self;
+using Leopotam.EcsLite;
 
 namespace UnityComponents
 {
@@ -24,7 +22,7 @@ namespace UnityComponents
         {
             foreach (int entity in _filter)
             {
-                _renderersHit.Get(entity).value.Value.RenderHit();
+                //_renderersHit.Get(entity).value.Value.RenderHit();
        
                 _analyzeRequests.Del(entity);
             }
