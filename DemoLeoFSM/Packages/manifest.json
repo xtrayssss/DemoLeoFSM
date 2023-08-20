@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "com.affencode.leoecslite-zoo": "https://github.com/aleverdes/leoecslite-zoo.git",
+    "com.anbi.leoecslite.entityconverter": "https://github.com/AndreyBirchenko/LeoEcsLiteEntityConverter.git",
     "com.dbrizov.naughtyattributes": "https://github.com/dbrizov/NaughtyAttributes.git#upm",
     "com.leopotam.ecslite": "https://github.com/Leopotam/ecslite.git",
     "com.unity.cinemachine": "2.9.7",
