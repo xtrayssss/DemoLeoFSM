@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4cb69eff8464e948f268e757734672e, type: 3}
   m_Name: GreenTreeData
   m_EditorClassIdentifier: 
-  enemyTypeId: 1
   enemyPrefab: {fileID: 4434634533362895938, guid: c974a51f038b165429adc8526d55441e, type: 3}
+  enemyTypeId: 1
   movementSpeed: 50
   health: 50
-  damage: 50
-  enemyTreeViewConfig: {fileID: 11400000, guid: 11d2a2bcb42d1ae49b1728d0b6d99087, type: 2}
+  healthBar: 50
+  damage: 10
+  damageBar: 10
+  enemyTreeViewConfig: {fileID: 11400000, guid: ea871d1aad21fba4a80c282dec76ff91, type: 2}

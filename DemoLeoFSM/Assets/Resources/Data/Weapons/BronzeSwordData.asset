@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabWeapon: {fileID: 7659730490544061733, guid: 4b1f1c7ddd6aee14eb02acb5df876cb5, type: 3}
   weaponTypeId: 1
-  weaponName: ' Bronze sword'
-  damage: 5
+  weaponName: Bronze sword
+  damage: 10
+  damageBar: 10
   coolDown: 0.5
   rangeAttack: 0.3
   maxHitSize: 1

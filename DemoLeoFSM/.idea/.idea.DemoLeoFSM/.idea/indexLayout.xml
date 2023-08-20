@@ -3,6 +3,8 @@
   <component name="ContentModelUserStore">
     <attachedFolders />
     <explicitIncludes>
+      <Path>Library/PackageCache/com.dbrizov.naughtyattributes@8a8fa5a965</Path>
+      <Path>Library/PackageCache/com.leopotam.ecslite@a5fc58bdcd</Path>
       <Path>Library/PackageCache/com.unity.2d.animation@9.0.3</Path>
       <Path>Library/PackageCache/com.unity.2d.aseprite@1.0.0</Path>
       <Path>Library/PackageCache/com.unity.2d.common@8.0.1</Path>

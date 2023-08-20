@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   heroPrefab: {fileID: 7045320972166965152, guid: 783ec235772789443bb8adc535b3175b, type: 3}
   movementSpeed: 80
-  health: 50
+  health: 100
+  healthBar: 100
   jumpVelocity: 400
   jumpGravity: -400
-  heroViewConfig: {fileID: 11400000, guid: 2ca4b203895085e429bbd57a525f6f61, type: 2}
   moveToIdleCoyoteTime: 0.08
+  heroViewConfig: {fileID: 11400000, guid: 2ca4b203895085e429bbd57a525f6f61, type: 2}
   camera: {fileID: 5610160927303618966, guid: 831f40fece47da44aa8cb2f7329f6405, type: 3}
   groundDetectionConfig: {fileID: 11400000, guid: 093a52cee0dfe3641a227f8f57623ac5, type: 2}

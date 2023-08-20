@@ -301,7 +301,6 @@ GameObject:
   - component: {fileID: 2369164231194094202}
   - component: {fileID: 2726831090178666397}
   - component: {fileID: 3615962771483085022}
-  - component: {fileID: 4292686812222414487}
   m_Layer: 7
   m_Name: HeroPrefab
   m_TagString: Untagged
@@ -467,18 +466,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   view: {fileID: 2726831090178666397}
   heroEntityView: {fileID: 5902595730735695371}
---- !u!114 &4292686812222414487
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7045320972166965152}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5295efce781c4e18a249e4ccfd746320, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &7294671139159261039
 GameObject:
   m_ObjectHideFlags: 0
