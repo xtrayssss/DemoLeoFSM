@@ -2,7 +2,7 @@
 
 namespace Infrastructure.Services.CancellationToken
 {
-    internal interface ICancellationTokenService
+    public interface ICancellationTokenService
     {
         public System.Threading.CancellationToken GetCancellationToken();
         public CancellationTokenSource GetCancellationTokenSource();

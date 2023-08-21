@@ -1,4 +1,4 @@
-﻿using UnityComponents.Configs.Weapons.Swords;
+﻿using GameLogic.Configs.Weapons.Swords;
 using UnityEditor;
 
 namespace Editor

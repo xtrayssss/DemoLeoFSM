@@ -167,7 +167,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbf97ab06b744777943a48aac62da343, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <forwardVector>k__BackingField: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

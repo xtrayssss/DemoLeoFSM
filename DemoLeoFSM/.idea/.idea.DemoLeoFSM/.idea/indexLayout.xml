@@ -3,9 +3,9 @@
   <component name="ContentModelUserStore">
     <attachedFolders />
     <explicitIncludes>
-      <Path>Library/PackageCache/com.affencode.leoecslite-zoo@d7a1012e7b</Path>
       <Path>Library/PackageCache/com.anbi.leoecslite.entityconverter@99f0afcfbd</Path>
       <Path>Library/PackageCache/com.dbrizov.naughtyattributes@8a8fa5a965</Path>
+      <Path>Library/PackageCache/com.leopotam.ecslite.unityeditor@133a7d2881</Path>
       <Path>Library/PackageCache/com.leopotam.ecslite@a5fc58bdcd</Path>
       <Path>Library/PackageCache/com.unity.2d.animation@9.0.3</Path>
       <Path>Library/PackageCache/com.unity.2d.aseprite@1.0.0</Path>

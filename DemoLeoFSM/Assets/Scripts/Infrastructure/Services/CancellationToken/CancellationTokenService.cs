@@ -2,7 +2,7 @@
 
 namespace Infrastructure.Services.CancellationToken
 {
-    internal class CancellationTokenService : ICancellationTokenService
+    public class CancellationTokenService : ICancellationTokenService
     {
         private readonly System.Threading.CancellationToken _cancellationToken;
         private readonly CancellationTokenSource _cancellationTokenSource;

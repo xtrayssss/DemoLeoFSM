@@ -1,0 +1,17 @@
+{
+    "name": "HelpersAssemDef",
+    "rootNamespace": "",
+    "references": [
+        "GUID:73f7ae34d527afe47abec72926dff4c6",
+        "GUID:e59bf9fc7d5a44b18a819a92edd46163"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

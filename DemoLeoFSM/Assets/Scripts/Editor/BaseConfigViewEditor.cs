@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Reflection;
-using UnityComponents.Configs;
+using GameLogic.Configs;
+using NaughtyAttributes.Editor;
 using UnityEditor;
 using UnityEngine;
 
 namespace Editor
 {
-    public abstract class BaseConfigViewEditor<T> : UnityEditor.Editor where T : class
+    public abstract class BaseConfigViewEditor<T> : NaughtyInspector where T : class
     {
         private const string FloatTipText =
             "Click on the \"Generate Animations Data\" button if you have changed something in any animation";

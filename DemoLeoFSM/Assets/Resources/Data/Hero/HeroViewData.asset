@@ -15,31 +15,31 @@ MonoBehaviour:
   dustEffect: {fileID: 0}
   idleAnimation:
     animationClip: {fileID: 7400000, guid: f1bd83e3c2c0ee841ba03b42e60be4b3, type: 2}
-    <NameAnimation>k__BackingField: Idle_Hero
-    <DurationAnimation>k__BackingField: 0.6666666
-    <HashAnimation>k__BackingField: -1102188171
+    nameAnimation: Idle_Hero
+    hashAnimation: -1102188171
+    durationAnimation: 0.6666666
   moveAnimation:
     animationClip: {fileID: 7400000, guid: e23ab4a27b9f3e74491b20e4b095a2ed, type: 2}
-    <NameAnimation>k__BackingField: Move_Hero
-    <DurationAnimation>k__BackingField: 0.4
-    <HashAnimation>k__BackingField: 2103803823
+    nameAnimation: Move_Hero
+    hashAnimation: 2103803823
+    durationAnimation: 0.4
   jumpPreparationAnimation:
     animationClip: {fileID: 7400000, guid: 2c496aa8f5ed6584ca387dba0b4f0aad, type: 2}
-    <NameAnimation>k__BackingField: PreparationJump_Hero
-    <DurationAnimation>k__BackingField: 0.375
-    <HashAnimation>k__BackingField: 2117414728
+    nameAnimation: PreparationJump_Hero
+    hashAnimation: 2117414728
+    durationAnimation: 0.375
   jumpAnimation:
     animationClip: {fileID: 7400000, guid: b61ad091227a42e42a3555e97bce3625, type: 2}
-    <NameAnimation>k__BackingField: Jump_Hero
-    <DurationAnimation>k__BackingField: 0.33333334
-    <HashAnimation>k__BackingField: -1027775335
+    nameAnimation: Jump_Hero
+    hashAnimation: -1027775335
+    durationAnimation: 0.33333334
   landingAnimation:
     animationClip: {fileID: 7400000, guid: b77d7105174b21344b1a9760206a63ac, type: 2}
-    <NameAnimation>k__BackingField: Landing_Hero
-    <DurationAnimation>k__BackingField: 0.25
-    <HashAnimation>k__BackingField: 2053137657
+    nameAnimation: Landing_Hero
+    hashAnimation: 2053137657
+    durationAnimation: 0.25
   fallingAnimation:
     animationClip: {fileID: 7400000, guid: d329b789e36be7f4a8a82e892939a066, type: 2}
-    <NameAnimation>k__BackingField: Fall_Hero
-    <DurationAnimation>k__BackingField: 0.5
-    <HashAnimation>k__BackingField: 236675336
+    nameAnimation: Fall_Hero
+    hashAnimation: 236675336
+    durationAnimation: 0.5

@@ -1,4 +1,4 @@
-﻿using UnityComponents.Configs.Hero;
+﻿using GameLogic.Configs.Hero;
 using UnityEditor;
 
 namespace Editor

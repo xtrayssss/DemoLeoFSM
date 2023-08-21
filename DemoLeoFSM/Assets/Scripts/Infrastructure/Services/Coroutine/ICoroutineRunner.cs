@@ -2,7 +2,7 @@
 
 namespace Infrastructure.Services.Coroutine
 {
-    internal interface ICoroutineRunner
+    public interface ICoroutineRunner
     {
         public UnityEngine.Coroutine StartCoroutine(IEnumerator routine);
     }

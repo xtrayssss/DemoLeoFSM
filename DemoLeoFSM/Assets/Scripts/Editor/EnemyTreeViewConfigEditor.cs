@@ -1,4 +1,4 @@
-﻿using UnityComponents.Configs.Enemies;
+﻿using GameLogic.Configs.Enemies;
 using UnityEditor;
 
 namespace Editor

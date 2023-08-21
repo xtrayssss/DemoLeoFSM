@@ -1,7 +1,7 @@
 ﻿using System.Linq;
-using UnityComponents;
-using UnityComponents.Configs.Enemies;
-using UnityComponents.Configs.Levels;
+using GameLogic.Configs.Enemies;
+using GameLogic.Configs.Levels;
+using GameLogic.UnityComponents;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
