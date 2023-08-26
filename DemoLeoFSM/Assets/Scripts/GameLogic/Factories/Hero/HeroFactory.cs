@@ -8,6 +8,7 @@ using GameLogic.EntityViews;
 using GameLogic.Factories.Detections;
 using GameLogic.Factories.Weapons;
 using GameLogic.Services.Data;
+using GameLogic.UnityComponents.Hero;
 using Helpers.ConverterToEntity;
 using Leopotam.EcsLite;
 using UnityEngine;
@@ -40,12 +41,12 @@ namespace GameLogic.Factories.Hero
 
             HeroConfig heroConfig = GetHeroData();
 
-            SetHeroPosition(heroConfig.spawnPosition);
+            InitializeHero(heroConfig.spawnPosition);
             SetCameraFollow(heroConfig, _heroEntityView.transform);
 
             InitializeComponents(defaultWorld, entity, heroConfig);
 
-            //CreateGroundCheckPoint(system, entity, heroConfig);
+            CreateGroundCheckPoint(system, entity, heroConfig);
             CreateSword(defaultWorld, entity, system);
 
             return _heroEntityView.gameObject;
@@ -77,8 +78,11 @@ namespace GameLogic.Factories.Hero
         private void InitializeWorlds(IEcsSystems system, out EcsWorld defaultWorld) =>
             defaultWorld = system.GetWorld();
 
-        private void SetHeroPosition(Vector2 spawnPosition) =>
+        private void InitializeHero(Vector2 spawnPosition)
+        {
+            _heroEntityView.GetComponent<HeroPresenter>().Initialize();
             _heroEntityView.transform.position = spawnPosition;
+        }
 
         private void CreateGroundCheckPoint(IEcsSystems system, int entity, HeroConfig heroConfig) =>
             _detectionFactory.CreateGroundCheckPoint(system, entity, _heroEntityView.transform,

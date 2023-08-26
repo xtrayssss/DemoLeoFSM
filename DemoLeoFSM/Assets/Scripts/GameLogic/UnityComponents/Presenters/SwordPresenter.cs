@@ -29,9 +29,14 @@ namespace GameLogic.UnityComponents.Presenters
         private IStateMachineFactory _stateMachineFactory;
 
         [Inject]
-        private void Construct(IStaticDataService staticDataService, IInputService inputService,
-            ITransitionFactory transitionFactory, IWorldService worldService, IStateMachineFactory stateMachineFactory,
-            IObservableTimerService observableTimerService)
+        private void Construct(
+            IStaticDataService staticDataService,
+            IInputService inputService,
+            ITransitionFactory transitionFactory,
+            IWorldService worldService,
+            IStateMachineFactory stateMachineFactory,
+            IObservableTimerService observableTimerService
+        )
         {
             _stateMachineFactory = stateMachineFactory;
             _worldService = worldService;
@@ -47,21 +52,21 @@ namespace GameLogic.UnityComponents.Presenters
 
             SwordEmptyState swordEmptyState =
                 new SwordEmptyState(weaponEntityView, swordConfig.SwordViewConfig.EmptyAnimation, view);
-            
+
             SwordAttackState swordAttackState = new SwordAttackState(weaponEntityView,
                 swordConfig.SwordViewConfig.AttackAnimation, view, _observableTimerService);
 
             int stateMachineEntity =
                 _stateMachineFactory.CreateStateMachine(_worldService.StatesWorld, swordEmptyState);
-
+            
             ref var packTransitions = ref _worldService.StatesWorld.GetPool<PackTransitions>().Get(stateMachineEntity);
-
+            
             packTransitions.Value.Add(swordEmptyState, new[]
             {
                 _transitionFactory.CreateTransition(_worldService.StatesWorld, swordEmptyState, swordAttackState,
                     IsAttack, stateMachineEntity),
             });
-
+            
             packTransitions.Value.Add(swordAttackState, new[]
             {
                 _transitionFactory.CreateTransition(_worldService.StatesWorld, swordAttackState, swordEmptyState,

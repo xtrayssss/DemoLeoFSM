@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace GameLogic.Factories.Hero
 {
-    internal interface IHeroFactory
+    public interface IHeroFactory
     {
         public GameObject CreateHero(IEcsSystems system);
     }

@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   emptyAnimation:
     animationClip: {fileID: 7400000, guid: c6a93d90d4cc8564288ba0db436e8f0f, type: 2}
-    <NameAnimation>k__BackingField: Empty_Entity
-    <DurationAnimation>k__BackingField: 0.016666668
-    <HashAnimation>k__BackingField: -845727255
+    nameAnimation: Empty_Entity
+    hashAnimation: -845727255
+    durationAnimation: 0.016666668
   attackAnimation:
     animationClip: {fileID: 7400000, guid: 29bc2af0c4cbaac49ae540882ca64668, type: 2}
-    <NameAnimation>k__BackingField: Hit_BronzeSword
-    <DurationAnimation>k__BackingField: 0.45454547
-    <HashAnimation>k__BackingField: 1938559222
+    nameAnimation: Hit_BronzeSword
+    hashAnimation: 1938559222
+    durationAnimation: 0.45454547

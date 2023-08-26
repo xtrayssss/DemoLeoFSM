@@ -15,7 +15,7 @@ MonoBehaviour:
   startPointPrefab: {fileID: 3072244205986465210, guid: cbd8b3b0b37ce634da4d71e6670f18d6, type: 3}
   <SpawnPosition>k__BackingField: {x: -0.005, y: -0.23699999}
   radius: 0.08
-  coolDownDetection: 0.2
+  coolDownDetection: 0
   hitSize: 1
   mask:
     serializedVersion: 2

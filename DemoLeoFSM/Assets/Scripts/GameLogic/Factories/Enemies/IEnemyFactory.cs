@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace GameLogic.Factories.Enemies
 {
-    internal interface IEnemyFactory
+    public interface IEnemyFactory
     {
         public GameObject CreateEnemy(IEcsSystems world, EnemyTypeId enemyTypeId, Vector2 spawnPosition,
             Transform parent,

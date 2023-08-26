@@ -49,7 +49,7 @@ namespace GameLogic.UnityComponents.Hero
             _observableTimerService = observableTimerService;
         }
 
-        private void Start()
+        public void Initialize()
         {
             _heroConfig = _staticDataService.GetHeroData();
             Model = new HeroModel(view, _heroConfig);
@@ -163,5 +163,14 @@ namespace GameLogic.UnityComponents.Hero
         {
             return _inputService.MovementDirection.x != 0.0f;
         }
+    }
+
+    class TestABC
+    {
+        public TestTeset _testTeset = new TestTeset();
+    }
+
+    class TestTeset
+    {
     }
 }

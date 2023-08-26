@@ -10,7 +10,7 @@ using UnityEngine.SceneManagement;
 
 namespace GameLogic.Systems.Inits
 {
-    internal class InitLevelSystem : IEcsPreInitSystem
+    internal class InitLevelSystem : IEcsInitSystem
     {
         private readonly IHeroFactory _heroFactory;
         private readonly IStaticDataService _staticDataService;
@@ -26,7 +26,7 @@ namespace GameLogic.Systems.Inits
             _sceneObjectContainer = sceneObjectContainer;
         }
 
-        public void PreInit(IEcsSystems systems)
+        public void Init(IEcsSystems systems)
         {
             _staticDataService.LoadWeaponsData();
             _staticDataService.LoadEnemiesData();

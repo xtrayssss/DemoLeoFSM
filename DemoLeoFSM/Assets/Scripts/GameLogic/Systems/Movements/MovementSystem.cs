@@ -34,7 +34,7 @@ namespace GameLogic.Systems.Movements
                 ref var rigidbodyComponent = ref _rigidbodies.Get(entity);
 
                 movementDirection.movementVector.Set(
-                    movementDirection.direction.x * (movementSpeed.value * Time.deltaTime),
+                    movementDirection.direction.x * movementSpeed.value,
                     rigidbodyComponent.value.velocity.y);
 
                 rigidbodyComponent.value.velocity = movementDirection.movementVector;

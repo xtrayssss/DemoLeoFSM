@@ -1,7 +1,9 @@
 ﻿using Common;
+using GameLogic.Components;
 using GameLogic.Components.Health;
 using GameLogic.Components.Requests.Other;
 using GameLogic.Components.Requests.Self;
+using GameLogic.Systems.Destroy;
 using Leopotam.EcsLite;
 
 namespace GameLogic.Systems.Damage
@@ -16,7 +18,8 @@ namespace GameLogic.Systems.Damage
         private EcsFilter _filter;
         private EcsPool<MakeDamageRequest> _damageRequests;
         private EcsPool<Health> _healths;
-        private EcsPool<AnalyzeTakeDamageSelfRequest> _analyzeTakeDamageSelfRequests;
+        private EcsPool<TakingDamageAnalysisSelfRequest> _analysisTakingDamageRequests;
+        private EcsPool<DestroyEntitySelfRequest> _destroyRequests;
 
         public void Init(IEcsSystems systems)
         {
@@ -25,9 +28,11 @@ namespace GameLogic.Systems.Damage
 
             _filter = _eventsWorld.Filter<MakeDamageRequest>().End();
 
-            _damageRequests = _eventsWorld.GetPool<MakeDamageRequest>();
             _healths = _defaultWorld.GetPool<Health>();
-            _analyzeTakeDamageSelfRequests = _defaultWorld.GetPool<AnalyzeTakeDamageSelfRequest>();
+            _analysisTakingDamageRequests = _defaultWorld.GetPool<TakingDamageAnalysisSelfRequest>();
+
+            _damageRequests = _eventsWorld.GetPool<MakeDamageRequest>();
+            _destroyRequests = _eventsWorld.GetPool<DestroyEntitySelfRequest>();
         }
 
         public void Run(IEcsSystems systems)
@@ -39,11 +44,11 @@ namespace GameLogic.Systems.Damage
                 if (TryUnpack(makeDamageRequest, out int damageableEntity))
                 {
                     _healths.Get(damageableEntity).value -= makeDamageRequest.Damage;
-                    
-                    _analyzeTakeDamageSelfRequests.Add(damageableEntity);
+
+                    _analysisTakingDamageRequests.Add(damageableEntity);
                 }
- 
-                _eventsWorld.DelEntity(entity);
+
+                _destroyRequests.Add(entity);
             }
         }
 

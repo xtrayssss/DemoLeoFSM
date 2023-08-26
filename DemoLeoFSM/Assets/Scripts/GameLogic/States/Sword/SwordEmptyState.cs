@@ -1,4 +1,4 @@
-﻿using GameLogic.Configs;
+﻿﻿using GameLogic.Configs;
 using GameLogic.EntityViews;
 using GameLogic.Skeletons.SkeletonFSM;
 using GameLogic.UnityComponents.Views;

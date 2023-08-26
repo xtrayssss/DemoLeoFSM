@@ -34,7 +34,7 @@ namespace GameLogic.Systems.Jump
 
                 jumpVelocity.value += jump.value * Time.fixedDeltaTime;
 
-                _jumpDirection.Set(rigidbodyComponent.value.velocity.x, jumpVelocity.value * Time.deltaTime);
+                _jumpDirection.Set(rigidbodyComponent.value.velocity.x, jumpVelocity.value);
                 
                 rigidbodyComponent.value.velocity = _jumpDirection;
             }
